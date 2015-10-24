@@ -90,7 +90,6 @@ BOARD_HARDWARE_CLASS := device/htc/a11/cmhw
 # SELinux
 include device/qcom/sepolicy/sepolicy.mk
 include vendor/cm/sepolicy/sepolicy.mk
-BOARD_SEPOLICY_DIRS += device/htc/a11/sepolicy
 
 # Recovery
 BOARD_HAS_NO_SELECT_BUTTON := true
