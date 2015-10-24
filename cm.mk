@@ -5,7 +5,7 @@
 PRODUCT_RELEASE_NAME := a11
 
 # Omni Common
-$(call inherit-product, vendor/cm/config/common.mk)
+$(call inherit-product, vendor/cm/config/common_full_phone.mk)
 
 # Inherit device configuration
 $(call inherit-product, device/htc/a11/device.mk)
