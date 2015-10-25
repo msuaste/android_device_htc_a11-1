@@ -177,17 +177,11 @@ PRODUCT_COPY_FILES += \
 
 # OMX
 PRODUCT_PACKAGES += \
-    libc2dcolorconvert \
-    libdivxdrmdecrypt \
+    libdashplayer \
     libOmxCore \
     libOmxVdec \
     libOmxVenc \
-    libOmxAacEnc \
-    libOmxAmrEnc \
-    libOmxEvrcEnc \
-    libOmxQcelp13Enc \
     libstagefrighthw \
-    libdashplayer \
     qcmediaplayer
 
 PRODUCT_BOOT_JARS += \
